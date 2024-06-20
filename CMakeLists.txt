@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(SOURCES
   Sources/main.cpp
-  Sources/StateManager.cpp
+  Sources/StateMachine.cpp
 )
 
 find_package(SFML 2.6.1 COMPONENTS graphics audio REQUIRED)
