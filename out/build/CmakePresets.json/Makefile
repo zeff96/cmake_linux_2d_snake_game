@@ -129,29 +129,29 @@ SnakeGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/build
 .PHONY : SnakeGame/fast
 
-Sources/StateManager.o: Sources/StateManager.cpp.o
-.PHONY : Sources/StateManager.o
+Sources/StateMachine.o: Sources/StateMachine.cpp.o
+.PHONY : Sources/StateMachine.o
 
 # target to build an object file
-Sources/StateManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o
-.PHONY : Sources/StateManager.cpp.o
+Sources/StateMachine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o
+.PHONY : Sources/StateMachine.cpp.o
 
-Sources/StateManager.i: Sources/StateManager.cpp.i
-.PHONY : Sources/StateManager.i
+Sources/StateMachine.i: Sources/StateMachine.cpp.i
+.PHONY : Sources/StateMachine.i
 
 # target to preprocess a source file
-Sources/StateManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.i
-.PHONY : Sources/StateManager.cpp.i
+Sources/StateMachine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.i
+.PHONY : Sources/StateMachine.cpp.i
 
-Sources/StateManager.s: Sources/StateManager.cpp.s
-.PHONY : Sources/StateManager.s
+Sources/StateMachine.s: Sources/StateMachine.cpp.s
+.PHONY : Sources/StateMachine.s
 
 # target to generate assembly for a file
-Sources/StateManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.s
-.PHONY : Sources/StateManager.cpp.s
+Sources/StateMachine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.s
+.PHONY : Sources/StateMachine.cpp.s
 
 Sources/main.o: Sources/main.cpp.o
 .PHONY : Sources/main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SnakeGame"
-	@echo "... Sources/StateManager.o"
-	@echo "... Sources/StateManager.i"
-	@echo "... Sources/StateManager.s"
+	@echo "... Sources/StateMachine.o"
+	@echo "... Sources/StateMachine.i"
+	@echo "... Sources/StateMachine.s"
 	@echo "... Sources/main.o"
 	@echo "... Sources/main.i"
 	@echo "... Sources/main.s"

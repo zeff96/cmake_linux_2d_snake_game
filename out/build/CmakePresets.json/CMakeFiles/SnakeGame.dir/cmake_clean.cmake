@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o"
-  "CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o.d"
+  "CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o"
+  "CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o.d"
   "CMakeFiles/SnakeGame.dir/Sources/main.cpp.o"
   "CMakeFiles/SnakeGame.dir/Sources/main.cpp.o.d"
   "SnakeGame"

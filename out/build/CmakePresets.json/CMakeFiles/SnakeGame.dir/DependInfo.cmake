@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/adeka/Desktop/snake-Game/Sources/StateManager.cpp" "CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o.d"
+  "/home/adeka/Desktop/snake-Game/Sources/StateMachine.cpp" "CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o.d"
   "/home/adeka/Desktop/snake-Game/Sources/main.cpp" "CMakeFiles/SnakeGame.dir/Sources/main.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/main.cpp.o.d"
   )
 

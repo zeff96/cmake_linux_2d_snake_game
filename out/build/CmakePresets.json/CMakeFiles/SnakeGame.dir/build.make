@@ -83,30 +83,30 @@ CMakeFiles/SnakeGame.dir/Sources/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeGame.dir/Sources/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adeka/Desktop/snake-Game/Sources/main.cpp -o CMakeFiles/SnakeGame.dir/Sources/main.cpp.s
 
-CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o: CMakeFiles/SnakeGame.dir/flags.make
-CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o: /home/adeka/Desktop/snake-Game/Sources/StateManager.cpp
-CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o: CMakeFiles/SnakeGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o -MF CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o.d -o CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o -c /home/adeka/Desktop/snake-Game/Sources/StateManager.cpp
+CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o: CMakeFiles/SnakeGame.dir/flags.make
+CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o: /home/adeka/Desktop/snake-Game/Sources/StateMachine.cpp
+CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o: CMakeFiles/SnakeGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o -MF CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o.d -o CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o -c /home/adeka/Desktop/snake-Game/Sources/StateMachine.cpp
 
-CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adeka/Desktop/snake-Game/Sources/StateManager.cpp > CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.i
+CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adeka/Desktop/snake-Game/Sources/StateMachine.cpp > CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.i
 
-CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adeka/Desktop/snake-Game/Sources/StateManager.cpp -o CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.s
+CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adeka/Desktop/snake-Game/Sources/StateMachine.cpp -o CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.s
 
 # Object files for target SnakeGame
 SnakeGame_OBJECTS = \
 "CMakeFiles/SnakeGame.dir/Sources/main.cpp.o" \
-"CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o"
+"CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o"
 
 # External object files for target SnakeGame
 SnakeGame_EXTERNAL_OBJECTS =
 
 SnakeGame: CMakeFiles/SnakeGame.dir/Sources/main.cpp.o
-SnakeGame: CMakeFiles/SnakeGame.dir/Sources/StateManager.cpp.o
+SnakeGame: CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o
 SnakeGame: CMakeFiles/SnakeGame.dir/build.make
 SnakeGame: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1
 SnakeGame: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.6.1
