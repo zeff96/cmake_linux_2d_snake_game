@@ -11,15 +11,7 @@
 class Snake : public sf::Drawable
 {
 public:
-  Snake(const sf::Texture &texture, const sf::Vector2f &startingPosition, int initialLength) : headPosition{startingPosition}, direction(0.f, 0.f), length{initialLength}
-  {
-    for (size_t i = 0; i < initialLength; ++i)
-    {
-      sf::Sprite segment;
-      segment.setPosition(startingPosition.x - i * texture.getSize().x, startingPosition.y);
-      body.emplace_back(segment);
-    }
-  };
+  Snake(const sf::Texture &texture, const sf::Vector2f &startingPosition, int initialLength = 3);
   virtual ~Snake();
 
   void Move(const sf::Vector2f &direction);
