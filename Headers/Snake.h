@@ -1,28 +1,37 @@
 #pragma once
 
-#include <list>
+#include <vector>
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/RenderTarget.hpp>
 #include <SFML/Graphics/RenderStates.hpp>
 #include <SFML/Graphics/Drawable.hpp>
+#include <SFML/Graphics/RenderWindow.hpp>
 
 class Snake : public sf::Drawable
 {
 public:
-  Snake();
+  Snake(const sf::Texture &texture, const sf::Vector2f &startingPosition, int initialLength) : headPosition{startingPosition}, direction(0.f, 0.f), length{initialLength}
+  {
+    for (size_t i = 0; i < initialLength; ++i)
+    {
+      sf::Sprite segment;
+      segment.setPosition(startingPosition.x - i * texture.getSize().x, startingPosition.y);
+      body.emplace_back(segment);
+    }
+  };
   virtual ~Snake();
 
-  void Init(const sf::Texture &texture);
   void Move(const sf::Vector2f &direction);
-  bool IsOn(const sf::Sprite &prite) const;
+  bool CheckWallCollision(const sf::RenderWindow &window) const;
   void Grow(const sf::Vector2f &direction);
-  bool IsSelfIntersecting() const;
+  bool CheckSelfCollision() const;
 
   void draw(sf::RenderTarget &target, sf::RenderStates state) const override;
 
 private:
-  std::list<sf::Sprite> m_body;
-  std::list<sf::Sprite> m_head;
-  std::list<sf::Sprite> m_tail;
+  std::vector<sf::Sprite> body;
+  sf::Vector2f headPosition;
+  sf::Vector2f direction;
+  int length;
 };

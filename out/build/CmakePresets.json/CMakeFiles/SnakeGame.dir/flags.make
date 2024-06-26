@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/adeka/Desktop/snake-Game/Headers
+CXX_INCLUDES = -I/home/adeka/Desktop/snake-Game/Headers -I/home/adeka/Desktop/snake-Game/Resources
 
 CXX_FLAGS = -g -std=gnu++20
 

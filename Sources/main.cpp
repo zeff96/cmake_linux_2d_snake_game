@@ -1,5 +1,7 @@
-#include <stdio.h>
+#include "Game.h"
 
-int main(int, char**){
-    printf("Hello, from SnakeGame!\n");
+int main(int, char **)
+{
+    GameState::Game game;
+    game.run();
 }

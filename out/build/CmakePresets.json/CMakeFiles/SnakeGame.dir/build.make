@@ -97,23 +97,71 @@ CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adeka/Desktop/snake-Game/Sources/StateMachine.cpp -o CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.s
 
+CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o: CMakeFiles/SnakeGame.dir/flags.make
+CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o: /home/adeka/Desktop/snake-Game/Sources/MainMenu.cpp
+CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o: CMakeFiles/SnakeGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o -MF CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o.d -o CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o -c /home/adeka/Desktop/snake-Game/Sources/MainMenu.cpp
+
+CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adeka/Desktop/snake-Game/Sources/MainMenu.cpp > CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.i
+
+CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adeka/Desktop/snake-Game/Sources/MainMenu.cpp -o CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.s
+
+CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o: CMakeFiles/SnakeGame.dir/flags.make
+CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o: /home/adeka/Desktop/snake-Game/Sources/Game.cpp
+CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o: CMakeFiles/SnakeGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o -MF CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o.d -o CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o -c /home/adeka/Desktop/snake-Game/Sources/Game.cpp
+
+CMakeFiles/SnakeGame.dir/Sources/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SnakeGame.dir/Sources/Game.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adeka/Desktop/snake-Game/Sources/Game.cpp > CMakeFiles/SnakeGame.dir/Sources/Game.cpp.i
+
+CMakeFiles/SnakeGame.dir/Sources/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeGame.dir/Sources/Game.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adeka/Desktop/snake-Game/Sources/Game.cpp -o CMakeFiles/SnakeGame.dir/Sources/Game.cpp.s
+
+CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o: CMakeFiles/SnakeGame.dir/flags.make
+CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o: /home/adeka/Desktop/snake-Game/Sources/Assets.cpp
+CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o: CMakeFiles/SnakeGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o -MF CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o.d -o CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o -c /home/adeka/Desktop/snake-Game/Sources/Assets.cpp
+
+CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adeka/Desktop/snake-Game/Sources/Assets.cpp > CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.i
+
+CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adeka/Desktop/snake-Game/Sources/Assets.cpp -o CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.s
+
 # Object files for target SnakeGame
 SnakeGame_OBJECTS = \
 "CMakeFiles/SnakeGame.dir/Sources/main.cpp.o" \
-"CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o"
+"CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o" \
+"CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o" \
+"CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o" \
+"CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o"
 
 # External object files for target SnakeGame
 SnakeGame_EXTERNAL_OBJECTS =
 
 SnakeGame: CMakeFiles/SnakeGame.dir/Sources/main.cpp.o
 SnakeGame: CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o
+SnakeGame: CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o
+SnakeGame: CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o
+SnakeGame: CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o
 SnakeGame: CMakeFiles/SnakeGame.dir/build.make
 SnakeGame: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1
 SnakeGame: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.6.1
 SnakeGame: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1
 SnakeGame: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
 SnakeGame: CMakeFiles/SnakeGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SnakeGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SnakeGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SnakeGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

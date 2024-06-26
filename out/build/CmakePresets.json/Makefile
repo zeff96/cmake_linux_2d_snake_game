@@ -129,6 +129,78 @@ SnakeGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/build
 .PHONY : SnakeGame/fast
 
+Sources/Assets.o: Sources/Assets.cpp.o
+.PHONY : Sources/Assets.o
+
+# target to build an object file
+Sources/Assets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o
+.PHONY : Sources/Assets.cpp.o
+
+Sources/Assets.i: Sources/Assets.cpp.i
+.PHONY : Sources/Assets.i
+
+# target to preprocess a source file
+Sources/Assets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.i
+.PHONY : Sources/Assets.cpp.i
+
+Sources/Assets.s: Sources/Assets.cpp.s
+.PHONY : Sources/Assets.s
+
+# target to generate assembly for a file
+Sources/Assets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.s
+.PHONY : Sources/Assets.cpp.s
+
+Sources/Game.o: Sources/Game.cpp.o
+.PHONY : Sources/Game.o
+
+# target to build an object file
+Sources/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o
+.PHONY : Sources/Game.cpp.o
+
+Sources/Game.i: Sources/Game.cpp.i
+.PHONY : Sources/Game.i
+
+# target to preprocess a source file
+Sources/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/Game.cpp.i
+.PHONY : Sources/Game.cpp.i
+
+Sources/Game.s: Sources/Game.cpp.s
+.PHONY : Sources/Game.s
+
+# target to generate assembly for a file
+Sources/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/Game.cpp.s
+.PHONY : Sources/Game.cpp.s
+
+Sources/MainMenu.o: Sources/MainMenu.cpp.o
+.PHONY : Sources/MainMenu.o
+
+# target to build an object file
+Sources/MainMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o
+.PHONY : Sources/MainMenu.cpp.o
+
+Sources/MainMenu.i: Sources/MainMenu.cpp.i
+.PHONY : Sources/MainMenu.i
+
+# target to preprocess a source file
+Sources/MainMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.i
+.PHONY : Sources/MainMenu.cpp.i
+
+Sources/MainMenu.s: Sources/MainMenu.cpp.s
+.PHONY : Sources/MainMenu.s
+
+# target to generate assembly for a file
+Sources/MainMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.s
+.PHONY : Sources/MainMenu.cpp.s
+
 Sources/StateMachine.o: Sources/StateMachine.cpp.o
 .PHONY : Sources/StateMachine.o
 
@@ -186,6 +258,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SnakeGame"
+	@echo "... Sources/Assets.o"
+	@echo "... Sources/Assets.i"
+	@echo "... Sources/Assets.s"
+	@echo "... Sources/Game.o"
+	@echo "... Sources/Game.i"
+	@echo "... Sources/Game.s"
+	@echo "... Sources/MainMenu.o"
+	@echo "... Sources/MainMenu.i"
+	@echo "... Sources/MainMenu.s"
 	@echo "... Sources/StateMachine.o"
 	@echo "... Sources/StateMachine.i"
 	@echo "... Sources/StateMachine.s"
