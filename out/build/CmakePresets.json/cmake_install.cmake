@@ -1,8 +1,8 @@
-# Install script for directory: /home/adeka/Desktop/snake-Game
+# Install script for directory: /home/adeka/Projects/snake-Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adeka/Desktop/snake-Game/out/install/CmakePresets.json")
+  set(CMAKE_INSTALL_PREFIX "/home/adeka/Projects/snake-Game/out/install/CmakePresets.json")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/adeka/Projects/snake-Game/out/build/CmakePresets.json/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

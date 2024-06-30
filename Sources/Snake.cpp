@@ -24,6 +24,11 @@ void Snake::Move(const sf::Vector2f &direction)
 
 bool Snake::CheckWallCollision(const sf::RenderWindow &window) const
 {
+  sf::FloatRect headBounds = body[0].getGlobalBounds();
+  if (headBounds.left < 0 || headBounds.top < 0 || headBounds.left + headBounds.width > window.getSize().x || headBounds.top + headBounds.height > window.getSize().y)
+  {
+    return true;
+  }
   return false;
 }
 

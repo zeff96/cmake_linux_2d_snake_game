@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json"
+			"value" : "/home/adeka/Projects/snake-Game/out/build/CmakePresets.json"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -283,10 +283,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "/usr/bin/gcc"
 		},
 		{
@@ -547,7 +547,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json/CMakeFiles/pkgRedirects"
+			"value" : "/home/adeka/Projects/snake-Game/out/build/CmakePresets.json/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/adeka/Desktop/snake-Game"
+			"value" : "/home/adeka/Projects/snake-Game"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/adeka/Desktop/snake-Game/out/install/CmakePresets.json"
+			"value" : "/home/adeka/Projects/snake-Game/out/install/CmakePresets.json"
 		},
 		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
@@ -1231,7 +1231,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/adeka/Desktop/snake-Game/out/build/CmakePresets.json"
+			"value" : "/home/adeka/Projects/snake-Game/out/build/CmakePresets.json"
 		},
 		{
 			"name" : "SnakeGame_IS_TOP_LEVEL",
@@ -1255,7 +1255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/adeka/Desktop/snake-Game"
+			"value" : "/home/adeka/Projects/snake-Game"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

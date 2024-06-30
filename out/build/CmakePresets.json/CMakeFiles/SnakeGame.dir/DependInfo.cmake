@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/adeka/Desktop/snake-Game/Sources/Assets.cpp" "CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o.d"
-  "/home/adeka/Desktop/snake-Game/Sources/Game.cpp" "CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o.d"
-  "/home/adeka/Desktop/snake-Game/Sources/MainMenu.cpp" "CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o.d"
-  "/home/adeka/Desktop/snake-Game/Sources/StateMachine.cpp" "CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o.d"
-  "/home/adeka/Desktop/snake-Game/Sources/main.cpp" "CMakeFiles/SnakeGame.dir/Sources/main.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/main.cpp.o.d"
+  "/home/adeka/Projects/snake-Game/Sources/Assets.cpp" "CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/Assets.cpp.o.d"
+  "/home/adeka/Projects/snake-Game/Sources/Game.cpp" "CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/Game.cpp.o.d"
+  "/home/adeka/Projects/snake-Game/Sources/MainMenu.cpp" "CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/MainMenu.cpp.o.d"
+  "/home/adeka/Projects/snake-Game/Sources/StateMachine.cpp" "CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/StateMachine.cpp.o.d"
+  "/home/adeka/Projects/snake-Game/Sources/main.cpp" "CMakeFiles/SnakeGame.dir/Sources/main.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/Sources/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

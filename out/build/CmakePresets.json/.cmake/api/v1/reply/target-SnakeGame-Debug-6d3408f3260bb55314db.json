@@ -99,11 +99,11 @@
 			[
 				{
 					"backtrace" : 9,
-					"path" : "/home/adeka/Desktop/snake-Game/Headers"
+					"path" : "/home/adeka/Projects/snake-Game/Headers"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/adeka/Desktop/snake-Game/Resources"
+					"path" : "/home/adeka/Projects/snake-Game/Resources"
 				}
 			],
 			"language" : "CXX",
