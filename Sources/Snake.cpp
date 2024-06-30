@@ -41,6 +41,14 @@ void Snake::Grow(const sf::Vector2f &direction)
 }
 bool Snake::CheckSelfCollision() const
 {
+  sf::FloatRect headBounds = body[0].getGlobalBounds();
+  for (int i = 1; i < body.size(); ++i)
+  {
+    if (headBounds.intersects(body[i].getGlobalBounds()))
+    {
+      return true;
+    }
+  }
   return false;
 }
 void Snake::draw(sf::RenderTarget &target, sf::RenderStates state) const {
