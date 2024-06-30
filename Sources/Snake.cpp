@@ -51,5 +51,10 @@ bool Snake::CheckSelfCollision() const
   }
   return false;
 }
-void Snake::draw(sf::RenderTarget &target, sf::RenderStates state) const {
+void Snake::draw(sf::RenderTarget &target, sf::RenderStates state) const
+{
+  for (const auto &segment : body)
+  {
+    target.draw(segment, state);
+  }
 };
