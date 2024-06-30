@@ -34,6 +34,10 @@ bool Snake::CheckWallCollision(const sf::RenderWindow &window) const
 
 void Snake::Grow(const sf::Vector2f &direction)
 {
+  sf::Sprite newSegment(body.back());
+  newSegment.move(-direction);
+  body.emplace_back(newSegment);
+  length++;
 }
 bool Snake::CheckSelfCollision() const
 {
